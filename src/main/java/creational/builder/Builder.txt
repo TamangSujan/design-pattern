@@ -1,0 +1,10 @@
+Builder Pattern is a creational design pattern which lets us to create an object easily in readable manner step by step.
+Rather remembering whole constructor parameters, one can easily create object and specify which is needed and which aren't.
+
+A real life example:
+    Telling engineer to build house and instructing them which part are needed and which aren't.
+
+In this code example:
+    House has a HouseBuilder which builds house object.
+    Final method build() will create an house object and before build()
+    We an call several methods like buildGarden(), buildGarage() in order to create a garden and garage for house.
