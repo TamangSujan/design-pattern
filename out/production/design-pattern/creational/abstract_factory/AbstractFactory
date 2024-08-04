@@ -1,0 +1,4 @@
+Abstract Factory Pattern is a type of design pattern where an instance of object is only build and given from one central builder.
+Factory Pattern is specific to its design, where as Abstract Factory Pattern is factory of factory
+where it uses different factory based on requirements.
+It is generally designed and use in order to prevent manual generation from scratch.
