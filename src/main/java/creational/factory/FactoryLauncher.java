@@ -1,8 +1,8 @@
-package factory;
+package creational.factory;
 
-import factory.implementation.Vehicle;
-import factory.implementation.VehicleFactory;
-import factory.implementation.VehicleType;
+import creational.factory.implementation.Vehicle;
+import creational.factory.implementation.VehicleType;
+import creational.factory.implementation.VehicleFactory;
 
 public class FactoryLauncher {
     public static void main(String[] args) {

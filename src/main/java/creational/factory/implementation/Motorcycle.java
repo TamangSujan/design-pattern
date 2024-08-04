@@ -1,4 +1,4 @@
-package factory.implementation;
+package creational.factory.implementation;
 
 class Motorcycle implements Vehicle {
     @Override

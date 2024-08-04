@@ -1,4 +1,4 @@
-package factory.implementation;
+package creational.factory.implementation;
 
 import java.util.HashMap;
 import java.util.Map;
