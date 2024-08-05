@@ -1,0 +1,14 @@
+Command is a behavioural design pattern which is used to create a set of instruction by populating all
+the necessary information and later executing when required.
+
+A real world example:
+    A customer order some food in a restaurant
+    Waiter write it down all the request in a piece of paper
+    Waiter paste the order paper in a wall near to Chef
+    Chef prepare the food
+    Waiter bring back the food to teh customer
+
+In this code example:
+    There are two command LogReadCommand and LogSaveCommand
+    LogReadCommand will read out all the logs which was saved
+    LogSaveCommand will save the log in LogHandler
