@@ -1,0 +1,9 @@
+FlyWeight is a structural design pattern which allows you to re-use immutable object.
+
+In real life example:
+    Using template and adding form value to print form for different individuals
+    rather than creating different form manually to print.
+
+In a code example:
+    FlyWeightImage is a immutable object which can be re-use.
+    FlyWeightFactory will give you those instance which can be re-used.
