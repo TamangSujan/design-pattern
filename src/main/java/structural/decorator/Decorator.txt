@@ -1,0 +1,13 @@
+Decorator is a structural design pattern which can be thought of wrapper design pattern
+which wraps or decorate additional task as per need.
+
+A real life example:
+    A human being without any shirt.
+    If he feels cold then he will wear shirt.
+    And again if he feels more cold then he will add jacket above shirt.
+
+In this code example:
+    Decorator is initialized with cloth.
+    Each decorator instance can decorate with new Decorator.
+
+    It can show a list of decoration inside of it using showDecoration.
