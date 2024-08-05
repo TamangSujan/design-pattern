@@ -1,0 +1,16 @@
+Adaptor is a structural design pattern where it makes incompatible interface to collaborate.
+
+A real life example:
+    F Type Socket is able to connect with F Type Plug.
+    In order for connect to F Type Socket for other type plug such as I Type Plug
+    We need an adaptor that connects I Type Plug and connects to F Type Socket in order to received charge.
+
+In this code example:
+    There are two types of sockets: F Type and I Type
+    There are two types of plug: F Type and I Type
+
+    Socket has method to connect Plug
+
+    One is not compatible to another
+
+    FTypeIPlugAdaptor is a type of adaptor that connects FTypeSocket to ITypePlug
