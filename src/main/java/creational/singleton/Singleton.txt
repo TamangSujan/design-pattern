@@ -1,0 +1,10 @@
+Singleton is creational design pattern which doesn't let you to create multiple instance of it
+rather giving same object making global instance.
+
+A real world example:
+    There can be only one government in a country no matter who runs it.
+
+In this code example:
+    Singleton class is made with static and class is made private in order to prevent to make another class.
+
+    Get method will return the same object.
