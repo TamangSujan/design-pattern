@@ -1,0 +1,13 @@
+Facade is a structural design pattern which let you required things while all the work are done behind the scene
+which are not necessary for implementers to see.
+
+A real world example:
+    We transact money from ATM using ATM Card using its interface.
+    We do not need to know how it handles behind the scene.
+    We insert card, give pin number and balance amount.
+    If all the criteria meets, it will give us money that we requested.
+
+In this code example:
+    Atm is a Facade which gives method withdraw which required ATM Card.
+    After inserting card, it asks the PIN and amount.
+    If all the criteria meets, it will return balance amount.
