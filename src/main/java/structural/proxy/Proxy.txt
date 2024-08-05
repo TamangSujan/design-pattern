@@ -1,0 +1,11 @@
+Proxy is a structural design pattern where a proxy object is created in order
+to reduce overhead on original object.
+
+A real life example:
+    Caching data so that frequent read operation are not done from original source
+    rather than getting same data from cache source as the data is same until it has been manipulated.
+
+In this code example:
+    ProxyNoteService allows us to get copy instance of UserNote.
+    It will give you same UserNote which is not an original note from database.
+    If any update is happen, it will save in database and actual copied instance.
