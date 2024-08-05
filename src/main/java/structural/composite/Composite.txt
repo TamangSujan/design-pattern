@@ -1,0 +1,14 @@
+Composite is a structural design pattern where objects instances are in tree structure.
+All those object instances are separate independent instances.
+
+A real world example:
+    Each army soldiers are independent human being and there exists hierarchy based on ranks.
+    There is one COAS General and two Lieutenant General below him and list goes on.
+
+In this code example:
+    There is individual box which can store list of items and list of box.
+    Each of the list of box can hold items and list of box.
+
+    Item has a name and price.
+
+    Finally, the getTotalPrice will return the price of itself and its child boxes.
