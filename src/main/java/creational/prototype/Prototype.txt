@@ -1,0 +1,8 @@
+Prototype is a creational design pattern which lets you copy existing objects.
+
+A real life example:
+    A prototype object which is used to copy and produce in mass.
+
+In this code example:
+    Candy implements CloneableCandy for cloning itself.
+    OrangeBall creates new object populating same price value to new OrangeBall.
