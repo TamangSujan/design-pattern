@@ -1,0 +1,14 @@
+Bridge is a structural design pattern which separates group of related attributes in instance
+and join as a whole instance.
+
+By using this pattern, each instance can be build independently.
+
+A real world example:
+    GUI Window - If we open browser, each OS window design is different.
+    We can perform same request in different OS, browser window may look different but the content inside looks same.
+
+In this code example:
+    Remote and Device are separated but remote acts as a support bridge to toggle device.
+
+    Each remote is associated with a different device.
+    It can interact like turning on/off, changing volume and channel.
