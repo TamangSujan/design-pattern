@@ -1,0 +1,13 @@
+Chain of Responsibility is a behavioural design pattern which passes to its next instance after it has completed its own work.
+Additional Logic can be done inside whether to pass to next or halt the request.
+
+A real life example:
+    A customer calling to customer care representative in order to understand the query.
+    If CSR doesn't know the solution, s/he will request internally who knows the answer and forwards to it.
+    The chain goes on finally getting the proper answer.
+
+In this code example:
+    Various filters such as QuerySanitizer, Authentication and Authorization filters are inserted in FilterChain.
+
+    The method chain inside FilterChain will call the first filter and then that filter will call chain calling second filter
+    and it goes on.
