@@ -1,0 +1,10 @@
+Iterator is a behavioral design pattern which allows us to traverse through elements without
+underlying its mechanism of any collection types.
+
+A real life example:
+    Travelling to different cities which can be decided using virtual map or hiring human guide.
+
+In this code example:
+    BLinkedList and BArrayList both have different mechanism of storing data.
+    Both provides a iterator method which will traverse on a same way.
+    It removes complexity of knowing how each list traverse.
