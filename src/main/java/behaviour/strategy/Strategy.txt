@@ -1,0 +1,8 @@
+Strategy is a behavioral design pattern which lets you to choose specific instance to complete the task.
+
+A real life example:
+    Google maps use different route based on walk or vehicle.
+
+In this code example:
+    There are two strategy: Add and Subtract
+    After providing two number, one can choose which strategy to use for those numbers
