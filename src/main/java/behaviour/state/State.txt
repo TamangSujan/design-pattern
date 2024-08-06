@@ -1,0 +1,13 @@
+State is a behavioral design pattern which allows to function based on state.
+
+A real world example:
+    When phone is unlocked, various things can be done.
+    When phone is locked, power button and other button can only light up screen to unlock it.
+
+In this code example:
+    BlogUser is able to create a BlogDocument and becomes owner.
+    A new document automatically has Draft State where only creator can write.
+
+    As non-creator tries to read document, it will not allow to read the content.
+
+    When in published state, even the creator is unable to write but all users can read the document.
