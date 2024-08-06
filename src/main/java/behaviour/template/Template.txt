@@ -1,0 +1,13 @@
+Template is a behavioral design pattern which allows to re-use task which is repeating
+and only override which needs to be different.
+
+A real life example:
+    A house must have walls but number of windows, doors, and other can be chosen according to need.
+
+In this code example:
+    Gateway transact method will process in a series.
+    It first calls to the url, gets response and process and return LogResult
+    Finally it saved Log
+
+    Each implementation eSewa and Khalti has its own api to call and its response is process in different way
+    and rest works are same.
