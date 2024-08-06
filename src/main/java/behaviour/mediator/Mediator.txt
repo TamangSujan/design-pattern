@@ -1,0 +1,11 @@
+Mediator is a behavioural design pattern which lets you reduce dependencies
+between objects. It restricts direct communication between objects and forces
+them to collaborate using mediator.
+
+A real life example:
+    Road vehicles following instructions of traffic police who acts as a mediator.
+
+In this code example:
+    A GUIMediator handles BButton and BCheckBox and their events.
+    We simply uses click or check method and do not need to know what going behind the scene.
+    GUIMediator is invoked behind the scene which handles these events.
