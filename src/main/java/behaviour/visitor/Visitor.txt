@@ -1,0 +1,13 @@
+Visitor is a behavioral design patten which allows to visit to respective area.
+
+In a real world example:
+    You are only allowed to enter into seminar if you are invited and by showing invitation card.
+
+In this code example:
+    TaxOffice holds a list of taxable homes. It sends tax collector to visit each home.
+    Each home will check tax collector whether it has permission or not.
+
+    Permission is inside its method such as visitBungalow and visitDuplex.
+
+    Suppose if we have new home type and visitor doesn't has visit method for that home,
+    it will not let visitor to visit the home.
