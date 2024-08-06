@@ -1,0 +1,8 @@
+Memento is a behavioral design pattern which lets you to save and restore previous state
+without revealing the detail of implementation.
+
+A real life example:
+    Note application which has feature of redo and undo.
+
+In this code example:
+    NoteApplication creates a single note, which lets you to write, read, save and perform undo.
