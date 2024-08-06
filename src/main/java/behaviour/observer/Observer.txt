@@ -1,0 +1,10 @@
+Observer is a behavioral design pattern which will observe any changes and notify to specific members.
+
+A real world example:
+    Youtube pops notification if any publisher has uploaded any new video where subscriber has subscribed to that publisher.
+
+In this code example:
+    MediaPublished will hold a list of subscriber who wants subscription.
+    MediaSubscriber will subscribe interested publisher.
+
+    When publisher publish any content, it will update all the subscriber it has.
